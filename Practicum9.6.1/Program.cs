@@ -40,7 +40,7 @@ namespace Practicum
                 }
             }
         }
-        
+
         public static void Task2()
         {
             string[] people = new string[5];
@@ -51,14 +51,19 @@ namespace Practicum
             }
 
             NumberEnteredEvent += SetSort;
-            try
+            while (true)
             {
-                Read();
+                try
+                {
+                    Read();
+                    break;
+                }
+                catch (MyException e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
-            catch (FormatException e)
-            {
-                Console.WriteLine(e.Message);
-            }
+
             BubbleSort(people);
             foreach (string human in people)
             {
@@ -87,7 +92,7 @@ namespace Practicum
             int number = Convert.ToInt32(Console.ReadLine());
 
             if (number != 1 && number != 2) 
-                throw new FormatException("Введено некорректноке значение");
+                throw new MyException("Введено некорректноке значение");
             
             NumberEntered(number);
         }
