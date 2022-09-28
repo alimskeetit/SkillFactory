@@ -49,7 +49,7 @@ namespace SFTelegramBot
         {
             return new AppSettings()
             {
-                BotToken = "5743891062:AAEGXqbMCHO6TXpEJbXGaaM-YKRQ0k6g2rc"
+                BotToken = "";
             };
         }
     }
