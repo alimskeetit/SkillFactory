@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFExceptionsAndDelegates", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracticum9.6.1", "Practicum9.6.1\SFPracticum9.6.1.csproj", "{9BF1E663-7CF5-4F4D-A379-D30C29EE933A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFInterfaces", "SFInterfaces\SFInterfaces.csproj", "{1636D546-C6F0-4198-A0FD-06043AA5ADD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFInterfaces", "SFInterfaces\SFInterfaces.csproj", "{1636D546-C6F0-4198-A0FD-06043AA5ADD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticum10.5.1", "SFPracticum10.5.1\SFPracticum10.5.1.csproj", "{14F4DD20-8815-45B3-B7E6-0F16C79756A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracticum10.5.1", "SFPracticum10.5.1\SFPracticum10.5.1.csproj", "{14F4DD20-8815-45B3-B7E6-0F16C79756A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFTelegramBot", "SFTelegramBot\SFTelegramBot.csproj", "{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{14F4DD20-8815-45B3-B7E6-0F16C79756A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14F4DD20-8815-45B3-B7E6-0F16C79756A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14F4DD20-8815-45B3-B7E6-0F16C79756A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
