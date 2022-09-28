@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Telegram.Bot;
 using SFTelegramBot.Controllers;
-using SFTelegramBot.Servies;
+using SFTelegramBot.Services;
 using SFTelegramBot.Configuration;
 
 namespace SFTelegramBot
@@ -29,7 +29,7 @@ namespace SFTelegramBot
         static void ConfigureServices(IServiceCollection services)
         {
             AppSettings appSettings = BuildAppSettings();
-            services.AddSingleton(appSettings);
+            services.AddSingleton(BuildAppSettings());
 
             //подключаем контроллеры
             services.AddTransient<DefaultMessageController>();
@@ -49,7 +49,10 @@ namespace SFTelegramBot
         {
             return new AppSettings()
             {
-                BotToken = "";
+                //DownloadsFolder = @"C:\\Users\\Ванч\\Downloads",
+                BotToken = "",
+                //AudioFileName = "audio",
+                //InputAudioFormat = "ogg"
             };
         }
     }

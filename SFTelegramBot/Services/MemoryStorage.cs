@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using SFTelegramBot.Models;
 
-namespace SFTelegramBot.Servies
+namespace SFTelegramBot.Services
 {
     public class MemoryStorage: IStorage
     {

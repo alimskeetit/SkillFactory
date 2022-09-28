@@ -75,13 +75,12 @@ namespace SFTelegramBot
         {
             var errorMessage = exception switch
             {
-                ApiRequestException apiRequestException => 
-                $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
+                ApiRequestException apiRequestException => $"Telegram API Error:\n[{apiRequestException.ErrorCode}]\n{apiRequestException.Message}",
                 _ => exception.ToString()
             };
 
             Console.WriteLine(errorMessage);
-            Console.WriteLine("Ожидаем 10 секунд перед повторным подклбчением.");
+            Console.WriteLine("Ожидаем 10 секунд перед повторным подключением.");
             Thread.Sleep(10000);
 
             return Task.CompletedTask;

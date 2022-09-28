@@ -1,25 +1,48 @@
-﻿using System;
+﻿using SFTelegramBot.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Telegram.Bot;
 using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
 
 namespace SFTelegramBot.Controllers
 {
     internal class InlineKeyboardController
     {
         private readonly ITelegramBotClient _telegramClient;
+        private readonly IStorage _memoryStorage;
 
+
+        public InlineKeyboardController(ITelegramBotClient telegramClient,
+                                        IStorage memoryStorage)
+        {
+            _telegramClient = telegramClient;
+            _memoryStorage = memoryStorage;
+        }
+        
         public async Task Handle(CallbackQuery? callbackQuery,
             CancellationToken ct)
         {
-            Console.WriteLine($"Контроллер {GetType().Name} обнаружил нажатие на кнопку");
+            if (callbackQuery?.Data == null)
+                return;
+
+            _memoryStorage.GetSession(callbackQuery.From.Id).LanguageCode = callbackQuery.Data;
+
+            string languageText = callbackQuery.Data switch
+            {
+                "ru" => "Русский",
+                "en" => "Английский",
+                _ => String.Empty
+            };
+
 
             await _telegramClient.SendTextMessageAsync(callbackQuery.From.Id,
-                $"Обнаружен нажатие на кнопку{callbackQuery.Data}", 
-                cancellationToken: ct);
+                $"<b>Язык аудио - {languageText}.{Environment.NewLine}</b>" +
+                $"{Environment.NewLine}Можно поменять в главном меню.", 
+                cancellationToken: ct, parseMode: ParseMode.Html);
         }
     }
 }
