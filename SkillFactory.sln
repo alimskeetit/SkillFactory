@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFInterfaces", "SFInterface
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracticum10.5.1", "SFPracticum10.5.1\SFPracticum10.5.1.csproj", "{14F4DD20-8815-45B3-B7E6-0F16C79756A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFTelegramBot", "SFTelegramBot\SFTelegramBot.csproj", "{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFTelegramBot", "SFTelegramBot\SFTelegramBot.csproj", "{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracitcumBot", "SFPracitcumBot\SFPracitcumBot.csproj", "{373C9D69-2390-431C-AE72-151EA9EDE95B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFAlgorithms", "SFAlgorithms\SFAlgorithms.csproj", "{F9896B92-E198-4661-AF76-45A47D2C3B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticum12.1.5", "SFPracticum12.1.5\SFPracticum12.1.5.csproj", "{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65FD75FA-79A1-4F19-9ADD-A7E6BA7A8478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373C9D69-2390-431C-AE72-151EA9EDE95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373C9D69-2390-431C-AE72-151EA9EDE95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373C9D69-2390-431C-AE72-151EA9EDE95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373C9D69-2390-431C-AE72-151EA9EDE95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9896B92-E198-4661-AF76-45A47D2C3B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9896B92-E198-4661-AF76-45A47D2C3B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9896B92-E198-4661-AF76-45A47D2C3B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9896B92-E198-4661-AF76-45A47D2C3B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

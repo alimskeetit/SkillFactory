@@ -37,6 +37,7 @@ namespace SFTelegramBot
             services.AddTransient<TextMessageController>();
             services.AddTransient<InlineKeyboardController>();
 
+            services.AddSingleton<IFileHandler, AudioFileHandler>();
             services.AddSingleton<IStorage, MemoryStorage>();
 
             services.AddSingleton<ITelegramBotClient>(provider =>
@@ -49,10 +50,12 @@ namespace SFTelegramBot
         {
             return new AppSettings()
             {
-                //DownloadsFolder = @"C:\\Users\\Ванч\\Downloads",
-                BotToken = "",
-                //AudioFileName = "audio",
-                //InputAudioFormat = "ogg"
+                DownloadsFolder = @"C:\Users\Ванч\Downloads",
+                BotToken = "5743891062:AAEGXqbMCHO6TXpEJbXGaaM-YKRQ0k6g2rc",
+                AudioFileName = "audio",
+                InputAudioFormat = "ogg",
+                OutputAudioFormat = "wav",
+                InputAudioBitrate = 50000
             };
         }
     }
