@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracitcumBot", "SFPracitc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFAlgorithms", "SFAlgorithms\SFAlgorithms.csproj", "{F9896B92-E198-4661-AF76-45A47D2C3B6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticum12.1.5", "SFPracticum12.1.5\SFPracticum12.1.5.csproj", "{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracticum12.1.5", "SFPracticum12.1.5\SFPracticum12.1.5.csproj", "{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFCollections", "SFCollections\SFCollections.csproj", "{BB65A511-162A-4F91-9F08-03B213D56807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPrecticum13.1.6", "SFPrecticum13.1.6\SFPrecticum13.1.6.csproj", "{4BA24F7C-869D-497A-AAAD-4FC26EFC3B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticumModule13", "SFPracticumModule13\SFPracticumModule13.csproj", "{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E192A21-3B4C-4E6D-B7AA-7812B0FE8B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB65A511-162A-4F91-9F08-03B213D56807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB65A511-162A-4F91-9F08-03B213D56807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB65A511-162A-4F91-9F08-03B213D56807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB65A511-162A-4F91-9F08-03B213D56807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA24F7C-869D-497A-AAAD-4FC26EFC3B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA24F7C-869D-497A-AAAD-4FC26EFC3B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA24F7C-869D-497A-AAAD-4FC26EFC3B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA24F7C-869D-497A-AAAD-4FC26EFC3B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
