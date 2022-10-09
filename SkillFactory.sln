@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracticum12.1.5", "SFPrac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFCollections", "SFCollections\SFCollections.csproj", "{BB65A511-162A-4F91-9F08-03B213D56807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPrecticum13.1.6", "SFPrecticum13.1.6\SFPrecticum13.1.6.csproj", "{4BA24F7C-869D-497A-AAAD-4FC26EFC3B28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPrecticum13.1.6", "SFPrecticum13.1.6\SFPrecticum13.1.6.csproj", "{4BA24F7C-869D-497A-AAAD-4FC26EFC3B28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticumModule13", "SFPracticumModule13\SFPracticumModule13.csproj", "{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracticumModule13", "SFPracticumModule13\SFPracticumModule13.csproj", "{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFLINQ", "SFLINQ\SFLINQ.csproj", "{000CB063-2AE9-4FB2-B616-A1724472A259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticum14.3.3", "SFPracticum1433\SFPracticum14.3.3.csproj", "{4EFE7458-D82A-4CE6-A823-5C3BC98F769A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F0F20CE-A6BD-4878-91F7-14635ABD3B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000CB063-2AE9-4FB2-B616-A1724472A259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000CB063-2AE9-4FB2-B616-A1724472A259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000CB063-2AE9-4FB2-B616-A1724472A259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000CB063-2AE9-4FB2-B616-A1724472A259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFE7458-D82A-4CE6-A823-5C3BC98F769A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFE7458-D82A-4CE6-A823-5C3BC98F769A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFE7458-D82A-4CE6-A823-5C3BC98F769A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFE7458-D82A-4CE6-A823-5C3BC98F769A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
