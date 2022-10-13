@@ -1,4 +1,4 @@
-﻿namespace LinqTest
+﻿namespace SFLINQ
 {
     internal class Student
     {

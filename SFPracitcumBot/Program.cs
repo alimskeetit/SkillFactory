@@ -2,7 +2,7 @@
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 
-namespace SFPracticumBot
+namespace SFPracitcumBot
 {
     public class Bot
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Practicum
+namespace Practicum9._6._1
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace Practicum
                 {
                     throw exception;
                 }
-                catch (MyException e) 
+                catch (MyException e)
                 {
                     Console.WriteLine(e.Message);
                 }
@@ -70,7 +70,7 @@ namespace Practicum
                 Console.WriteLine(human);
             }
         }
-        
+
         public static void Main()
         {
             Task1();
@@ -82,18 +82,18 @@ namespace Practicum
         {
             howSort = number;
         }
-        
+
         public delegate void NumberEnteredDelegate(int number);
         public static event NumberEnteredDelegate NumberEnteredEvent;
-        
+
         public static void Read()
         {
             Console.WriteLine("Введите 1 - сортировка [А-Я], 2 - сортировка [Я-А]");
             int number = Convert.ToInt32(Console.ReadLine());
 
-            if (number != 1 && number != 2) 
+            if (number != 1 && number != 2)
                 throw new MyException("Введено некорректноке значение");
-            
+
             NumberEntered(number);
         }
 
@@ -110,7 +110,7 @@ namespace Practicum
         public static void BubbleSort(string[] array)
         {
             Func<string, string, bool> func;
-            
+
             switch (howSort)
             {
                 case 1:
@@ -130,7 +130,7 @@ namespace Practicum
                 {
                     if (func(array[j], array[j + 1]))
                     {
-                        temp = array[j + 1]; 
+                        temp = array[j + 1];
                         array[j + 1] = array[j];
                         array[j] = temp;
                     }
@@ -145,14 +145,14 @@ namespace Practicum
         /// <returns></returns>
         public static bool LessThan(string a, string b)
         {
-            int minLength = (a.Length > b.Length) ? b.Length : a.Length;
+            int minLength = a.Length > b.Length ? b.Length : a.Length;
             for (int i = 0; i < minLength; ++i)
             {
                 if (a[i] < b[i]) return false;
                 else if (a[i] > b[i]) return true;
             }
 
-            return (a.Length == minLength) ? false : true;  
+            return a.Length == minLength ? false : true;
         }
 
         /// <summary>
@@ -169,13 +169,13 @@ namespace Practicum
 
     }
 
-    class MyException: Exception
+    class MyException : Exception
     {
         public MyException()
         {
 
         }
-        public MyException(string message): base(message)
+        public MyException(string message) : base(message)
         {
         }
     }

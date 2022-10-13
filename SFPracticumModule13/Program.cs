@@ -1,6 +1,4 @@
-﻿using SFPracticumModule13;
-
-namespace Program;
+﻿namespace SFPracticumModule13;
 
 class Program
 {

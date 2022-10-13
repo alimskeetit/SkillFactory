@@ -1,4 +1,4 @@
-﻿namespace Program;
+﻿namespace SFPrecticum13._1._6;
 class Program
 {
 
@@ -12,6 +12,6 @@ class Program
         Console.WriteLine(words.Length);
 
         Stack<int> numbers = new Stack<int>();
-        
+
     }
 }

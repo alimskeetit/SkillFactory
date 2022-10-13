@@ -1,5 +1,4 @@
-﻿
-namespace Program
+﻿namespace SFPracticum12._1._5
 {
     class Program
     {
@@ -39,7 +38,7 @@ namespace Program
         public override string ToString()
         {
             return $"Login: {Login}, Name: {Name}, Premium: " + (IsPremium ? "Activated" : "Disactivated") + " .\n";
-           
+
         }
         public User(string login, string name, bool isPremium)
         {

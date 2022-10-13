@@ -4,11 +4,11 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
 
-namespace LinqTest;
+namespace SFLINQ;
 class Program
 {
     public static void Main()
-    { 
+    {
         // Словарь для хранения стран с городами
         var Countries = new Dictionary<string, List<City>>();
 
@@ -41,7 +41,7 @@ class Program
                      orderby city.Population descending
                      select city;
 
-        foreach(var city in cities)
+        foreach (var city in cities)
         {
             Console.WriteLine(city.Name + " " + city.Population);
         }
@@ -107,11 +107,11 @@ class Program
 
         var newWords = words.Select(word => new
         {
-            word = word,
+            word,
             length = word.Length
         }).OrderBy(a => a.length);
 
-        foreach(var x in newWords)
+        foreach (var x in newWords)
         {
             Console.WriteLine(x);
         }
@@ -121,14 +121,14 @@ class Program
                                let yearOfBirth = DateTime.Now.Year - student.Age
                                select new
                                {
-                                   Name = student.Name,
+                                   student.Name,
                                    yearOfBirth
                                };
 
         foreach (var item in ancetsOfStudents)
         {
             Console.WriteLine(item);
-}
+        }
 
         var coarses = new List<Coarse>
         {
@@ -143,7 +143,7 @@ class Program
                          let yearOfBirth = DateTime.Now.Year - student.Age
                          select new
                          {
-                             Name = student.Name,
+                             student.Name,
                              yearOfBirth,
                              Coarse = coarse.Name
                          };
@@ -163,19 +163,19 @@ class Program
            new Contact() { Name = "Василий", Phone = 3434 }
         };
 
-//while (true)
-//{
-//    int keyChar = Convert.ToInt32(Console.ReadLine());
-//    Console.Clear();
-//    foreach (var item in contacts.Skip(2 * (keyChar - 1)).Take(2).Select(contact => new
-//    {
-//        Name = contact.Name,
-//        Phone = contact.Phone
-//    }))
-//    {
-//        Console.WriteLine(item);
-//    }
-//}
+        //while (true)
+        //{
+        //    int keyChar = Convert.ToInt32(Console.ReadLine());
+        //    Console.Clear();
+        //    foreach (var item in contacts.Skip(2 * (keyChar - 1)).Take(2).Select(contact => new
+        //    {
+        //        Name = contact.Name,
+        //        Phone = contact.Phone
+        //    }))
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
 
         Console.Clear();
 
@@ -191,7 +191,7 @@ class Program
         };
 
         cars.RemoveAll(c => c.CountryCode == "JP");
-        foreach(var car in cars)
+        foreach (var car in cars)
         {
             Console.WriteLine(car.Manufacture);
         }
@@ -212,8 +212,8 @@ class Program
 
 internal class Car
 {
-   public string Manufacture;
-   public string CountryCode;
+    public string Manufacture;
+    public string CountryCode;
 
     public Car(string v1, string v2)
     {
