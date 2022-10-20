@@ -43,7 +43,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calcualtor.Tests", "CalcualtorTests\Calcualtor.Tests.csproj", "{F6E40FA9-5FFB-44E9-8FE1-179A30E31214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFGOFPatterns", "SFGOFPatterns\SFGOFPatterns.csproj", "{AB355ECE-042D-4748-AD0B-5E951A07BF00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFGOFPatterns", "SFGOFPatterns\SFGOFPatterns.csproj", "{AB355ECE-042D-4748-AD0B-5E951A07BF00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPatternBuilder", "SFPatternBuilder\SFPatternBuilder.csproj", "{F9313DDA-D92D-46CD-A160-95FC9BEF188A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPatternProtype", "SFPatternProtype\SFPatternProtype.csproj", "{BC3D5858-59BF-4CE0-B754-A76CD80CB472}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPatternCommand", "SFPatternCommand\SFPatternCommand.csproj", "{6D663E7D-8EDA-4127-A60D-B2464EDCFD2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticum18.4.1", "SFPracticum18.4.1\SFPracticum18.4.1.csproj", "{22AF9884-7DD1-466C-870B-8CC743CE698E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +143,22 @@ Global
 		{AB355ECE-042D-4748-AD0B-5E951A07BF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB355ECE-042D-4748-AD0B-5E951A07BF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB355ECE-042D-4748-AD0B-5E951A07BF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9313DDA-D92D-46CD-A160-95FC9BEF188A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9313DDA-D92D-46CD-A160-95FC9BEF188A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9313DDA-D92D-46CD-A160-95FC9BEF188A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9313DDA-D92D-46CD-A160-95FC9BEF188A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3D5858-59BF-4CE0-B754-A76CD80CB472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3D5858-59BF-4CE0-B754-A76CD80CB472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3D5858-59BF-4CE0-B754-A76CD80CB472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3D5858-59BF-4CE0-B754-A76CD80CB472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D663E7D-8EDA-4127-A60D-B2464EDCFD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D663E7D-8EDA-4127-A60D-B2464EDCFD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D663E7D-8EDA-4127-A60D-B2464EDCFD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D663E7D-8EDA-4127-A60D-B2464EDCFD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AF9884-7DD1-466C-870B-8CC743CE698E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AF9884-7DD1-466C-870B-8CC743CE698E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AF9884-7DD1-466C-870B-8CC743CE698E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AF9884-7DD1-466C-870B-8CC743CE698E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
