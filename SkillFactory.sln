@@ -51,7 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPatternProtype", "SFPatte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPatternCommand", "SFPatternCommand\SFPatternCommand.csproj", "{6D663E7D-8EDA-4127-A60D-B2464EDCFD2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFPracticum18.4.1", "SFPracticum18.4.1\SFPracticum18.4.1.csproj", "{22AF9884-7DD1-466C-870B-8CC743CE698E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFPracticum18.4.1", "SFPracticum18.4.1\SFPracticum18.4.1.csproj", "{22AF9884-7DD1-466C-870B-8CC743CE698E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFBASECs", "SFBASECs\SFBASECs.csproj", "{C5D4C79C-0F4F-4A47-AA02-134135408F76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeSpot", "..\LifeSpot\LifeSpot\LifeSpot.csproj", "{BDF8AB51-EF2F-49E7-A665-4174F879AE3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,14 @@ Global
 		{22AF9884-7DD1-466C-870B-8CC743CE698E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22AF9884-7DD1-466C-870B-8CC743CE698E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22AF9884-7DD1-466C-870B-8CC743CE698E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D4C79C-0F4F-4A47-AA02-134135408F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D4C79C-0F4F-4A47-AA02-134135408F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D4C79C-0F4F-4A47-AA02-134135408F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D4C79C-0F4F-4A47-AA02-134135408F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF8AB51-EF2F-49E7-A665-4174F879AE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF8AB51-EF2F-49E7-A665-4174F879AE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF8AB51-EF2F-49E7-A665-4174F879AE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF8AB51-EF2F-49E7-A665-4174F879AE3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
